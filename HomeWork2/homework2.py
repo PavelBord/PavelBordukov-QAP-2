@@ -57,3 +57,11 @@ print('employ' in 'employment')
 x = "My name is Agent Smith"
 print(x[1])  # y
 print(x[3:16:3])  # nesgt
+
+# Есть массив чисел.
+# Известно,что каждое число в этом массиве имеет пару,кроме одного:
+# [1,5,2,9,9,1]=>5.Напишите программу,которая будет выводить уникальное число
+
+nums = [1, 5, 2, 9, 9, 2, 1]
+result = sum(set(nums))*2 - sum(nums)
+print(result)
