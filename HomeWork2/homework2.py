@@ -45,3 +45,23 @@ my_list = ['Груша', 'Яблока', 'Вишня', 'Арбуз']
 element_2 = my_list[1]
 print(element_2)
 
+# Вывести входит ли строка1 в строку2(пример:employ и employment)
+
+print('employ' in 'employment')
+
+# Вывести нужные символы
+# x="My name is Agent Smith"
+# print(x[?])#y
+# print(x[?:?:?])#nesgt
+
+x = "My name is Agent Smith"
+print(x[1])  # y
+print(x[3:16:3])  # nesgt
+
+# Есть массив чисел.
+# Известно,что каждое число в этом массиве имеет пару,кроме одного:
+# [1,5,2,9,9,1]=>5.Напишите программу,которая будет выводить уникальное число
+
+nums = [1, 5, 2, 9, 9, 2, 1]
+result = sum(set(nums))*2 - sum(nums)
+print(result)
