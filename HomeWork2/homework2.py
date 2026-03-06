@@ -9,6 +9,10 @@ org_url = 'www.my_site.com#about' # Заменяем '#' на '/'
 new_url = org_url.replace('#','/') 
 print(new_url) # Вывод: www.my_site.com/about
 
+#напишите программу,которая добавляет 'ing' к слову 'stroka'
+
+str_1 = 'Stroka'
+print(str_1 + 'ing')
 
 
 
