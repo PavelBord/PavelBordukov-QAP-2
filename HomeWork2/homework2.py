@@ -48,3 +48,12 @@ print(element_2)
 # Вывести входит ли строка1 в строку2(пример:employ и employment)
 
 print('employ' in 'employment')
+
+# Вывести нужные символы
+# x="My name is Agent Smith"
+# print(x[?])#y
+# print(x[?:?:?])#nesgt
+
+x = "My name is Agent Smith"
+print(x[1])  # y
+print(x[3:16:3])  # nesgt
