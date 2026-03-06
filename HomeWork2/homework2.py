@@ -45,4 +45,3 @@ my_list = ['Груша', 'Яблока', 'Вишня', 'Арбуз']
 element_2 = my_list[1]
 print(element_2)
 
-#
